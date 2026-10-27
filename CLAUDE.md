@@ -22,5 +22,12 @@ App web cá nhân giúp Hanz (sinh viên Việt Nam, mới bắt đầu học ti
 - Dữ liệu học (từ, bài, ngữ pháp) để trong `src/data/`, không trộn vào component.
 - Không chép nguyên văn bài khoá, hội thoại, lời giải thích hay audio của giáo trình vào repo (xem `docs/CONTENT.md`).
 
+## Skill
+Các skill trong `.claude/skills/` (danh sách và thứ tự dùng: `.claude/skills/README.md`):
+- Phong cách: **`hsk-ui`** luôn dùng trước và thắng khi mâu thuẫn với skill khác.
+- Animation và cảm giác chạm: `emil-design-eng`, `animate`, `improve-animations`, `review-animations`, `animation-performance`, `mobile-native`.
+- Linh vật và app học: `character-appeal`, `education-learning`.
+- Soát cuối: `web-design-guidelines`.
+
 ## Trạng thái hiện tại
 `src/styles/tokens.css` đã theo bảng màu mệnh Thủy (sáng + tối); giữ nguyên tinh thần này khi làm lại giao diện. Bản khung: 4 màn hình (Trang chủ, Thẻ từ vựng, Luyện viết, Giảng viên) chạy với dữ liệu mẫu. Nghe, Nói, Đọc mới là trang giữ chỗ. Chưa có lưu tiến độ, chưa có đồng bộ, giảng viên chưa gọi AI thật. Việc tiếp theo nằm trong mục "Việc cần làm" của `docs/PLAN.md`.
