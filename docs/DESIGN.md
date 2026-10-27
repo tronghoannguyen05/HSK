@@ -30,9 +30,15 @@ Repo tham khảo cách dựng component (MIT, chỉ đọc để học cách là
 Hợp mệnh Thủy: xanh dương, đen, xanh đen (bản mệnh); trắng, bạc, xám (Kim sinh Thủy). **Không** dùng vàng đất hay nâu làm màu chính (Thổ khắc Thủy). Chế độ tối: nền xanh đen sâu, giữ xanh Thủy làm điểm nhấn.
 
 ## Chữ
-- **Tiêu đề, logo, số XP, chữ trên nút: Phudu** (Google Fonts, của Dương Trần, lấy cảm hứng từ chữ vẽ tay trên biển quảng cáo Việt Nam thời xưa; font biến thiên 300–900). Người dùng chọn font này để giao diện có nét văn hoá Việt. Chỉ dùng cho chữ to; không dùng cho đoạn văn.
-- **Chữ thường, giải thích, lời Vina nói: Be Vietnam Pro** (400–700).
-- Không dùng Nunito nữa.
+Người dùng đã chốt bộ font này để giao diện có nét văn hoá Việt:
+
+| Vai trò | Font |
+|---|---|
+| Logo, tiêu đề, số XP, chữ trên nút | **Vina Sans** (Google Fonts; lấy cảm hứng từ chữ trên biển hiệu, tờ rơi, áp phích ngoài phố Việt Nam). Chỉ có một độ đậm: để `font-weight: 400`, không ép đậm. Chỉ dùng cho chữ to, không dùng cho đoạn văn. |
+| Chữ thường, giải thích, lời Vina nói | **Be Vietnam Pro** (400–700) |
+| Chữ Hán | Chữ Khải hoặc serif SC rõ nét (Noto Serif SC, hoặc LXGW WenKai) |
+
+Phương án dự phòng cho tiêu đề nếu muốn hoài cổ hơn: Phudu. Không dùng Nunito.
 - Chữ Hán: font chữ Khải/serif SC rõ nét (ví dụ Noto Serif SC, hoặc LXGW WenKai để giống chữ viết tay chuẩn). Chữ Hán là nhân vật chính: to, rõ.
 - Pinyin hiển thị đúng dấu thanh (ǎ ǐ ǒ ǔ ǚ).
 

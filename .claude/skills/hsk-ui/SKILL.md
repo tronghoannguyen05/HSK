@@ -16,8 +16,8 @@ Vui, tươi, phản hồi tức thì, giống Duolingo về **phong cách** như
 - Đúng `--correct` (xanh lá), sai `--wrong` (đỏ son).
 
 ## Component
-- **Font:** tiêu đề, logo, số, chữ trên nút dùng **Phudu** (font chữ biển hiệu Việt Nam xưa); chữ thường dùng **Be Vietnam Pro**; chữ Hán dùng `--font-hz`.
-- **Nút:** bo 16px, đáy 3D bằng `box-shadow: 0 5px 0 var(--primary-edge)` (nút phụ: `var(--line)`); `:active` lún `translateY(4px)`, bóng còn 1px. Chữ in hoa, Phudu 700.
+- **Font:** logo, tiêu đề, số XP, chữ trên nút dùng **Vina Sans** (`--font-display`, chữ biển hiệu phố Việt, chỉ một độ đậm nên luôn `font-weight: 400`); chữ thường dùng **Be Vietnam Pro** (`--font-ui`); chữ Hán dùng `--font-hz`.
+- **Nút:** bo 16px, đáy 3D bằng `box-shadow: 0 5px 0 var(--primary-edge)` (nút phụ: `var(--line)`); `:active` lún `translateY(4px)`, bóng còn 1px. Chữ in hoa, Vina Sans, giãn chữ nhẹ.
 - **Thẻ đáp án:** trắng, viền 2px `--line`, đáy 3D; chọn → viền `--primary`, nền `--silver`.
 - **Khung chấm:** trượt từ đáy màn hình (spring), nền xanh nhạt khi đúng / đỏ nhạt khi sai, kèm Vina đổi biểu cảm và nút "Tiếp tục".
 - **Lộ trình:** nút bài tròn 72px xếp zig-zag; bài hiện tại có Vina đứng cạnh.
