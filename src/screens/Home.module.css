@@ -1,0 +1,262 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 30px 36px 100px;
+  max-width: 1200px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+.date {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.hello {
+  margin: 4px 0 0;
+  font-size: 34px;
+  font-weight: 700;
+}
+.streak {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  background: var(--hero);
+  color: var(--hero-fg);
+  border-radius: var(--r-lg);
+  padding: 26px 30px;
+}
+.countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 220px;
+}
+.eyebrow {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hero-muted);
+}
+.days {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 18px;
+  color: var(--hero-muted);
+}
+.bigNum {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--hero-fg);
+  font-variant-numeric: tabular-nums;
+}
+.roadmap {
+  flex: 1 1 360px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.segments {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+.segment {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+}
+.segTrack {
+  height: 10px;
+  border-radius: 6px;
+  background: var(--hero-track);
+  overflow: hidden;
+}
+.segFill {
+  height: 100%;
+  background: var(--hero-accent);
+  border-radius: 6px;
+  transform-origin: left center;
+}
+.segLabel {
+  color: var(--hero-muted);
+}
+.segLabelNow {
+  color: var(--hero-fg);
+}
+.heroNote {
+  margin: 0;
+  font-size: 14px;
+  color: var(--hero-muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 22px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-width: 0;
+}
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.cardHead h2,
+.skills h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.muted {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.today {
+  padding: 24px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.steps li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: var(--surface-sunk);
+}
+.stepNum {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--jade);
+  color: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+.cta {
+  margin-top: auto;
+}
+
+.path {
+  padding: 22px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.lessons {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px 8px;
+  justify-items: center;
+}
+.lesson {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+.done {
+  background: var(--jade);
+  color: var(--surface);
+}
+.now {
+  background: var(--surface);
+  color: var(--seal);
+  border: 2px solid var(--seal);
+  animation: pulse 2.2s ease-out infinite;
+}
+.locked {
+  background: var(--surface-sunk);
+  color: var(--muted);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--seal) 45%, transparent);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 14px transparent;
+  }
+}
+
+.skills {
+  padding: 22px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.skillRow {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr) 40px;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+.skillRow > :last-child {
+  text-align: right;
+}
+.skillTrack {
+  height: 8px;
+  border-radius: 5px;
+  background: var(--track);
+  overflow: hidden;
+}
+.skillFill {
+  height: 100%;
+  border-radius: 5px;
+  background: var(--jade);
+}
+
+@media (max-width: 700px) {
+  .page {
+    padding: 20px 16px 110px;
+  }
+  .lessons {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

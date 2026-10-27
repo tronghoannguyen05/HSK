@@ -1,0 +1,10 @@
+{
+  "name": "HSK",
+  "short_name": "HSK",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ECEFE8",
+  "theme_color": "#ECEFE8",
+  "lang": "vi"
+}

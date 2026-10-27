@@ -1,0 +1,59 @@
+/* Token thiết kế. Mọi màu, font, bo góc lấy từ đây. Bản mẫu: nền ngọc nhạt, mực, đỏ son. */
+:root {
+  --bg: #ecefe8;
+  --bg-rail: #e4e9e2;
+  --surface: #f8f9f5;
+  --surface-sunk: #ecefe8;
+  --ink: #17201c;
+  --ink-inverse: #f1f3ee;
+  --muted: #55605a;
+  --line: #cbd3cb;
+  --track: #d5ddd4;
+  --jade: #2c6656;
+  --jade-strong: #1f4c40;
+  --jade-soft: #d6e5de;
+  --seal: #b7341f;
+  --seal-soft: #f3dcd5;
+  --hero: #17201c;
+  --hero-fg: #f1f3ee;
+  --hero-muted: #a9b8af;
+  --hero-track: #33413b;
+  --hero-accent: #e0644b;
+
+  --font-ui: 'Be Vietnam Pro', 'Noto Sans', system-ui, sans-serif;
+  --font-hz: 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 22px;
+  --r-xl: 28px;
+  --shadow-card: 0 1px 0 var(--line), 0 24px 48px -24px rgb(23 32 28 / 0.35);
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #121815;
+    --bg-rail: #0e1311;
+    --surface: #1b231f;
+    --surface-sunk: #151c18;
+    --ink: #e8ece6;
+    --ink-inverse: #121815;
+    --muted: #9aa69f;
+    --line: #2c3631;
+    --track: #2a3430;
+    --jade: #5fae97;
+    --jade-strong: #7cc4ad;
+    --jade-soft: #1f3a32;
+    --seal: #e3654c;
+    --seal-soft: #3b211b;
+    --hero: #1f2a25;
+    --hero-fg: #e8ece6;
+    --hero-muted: #8fa097;
+    --hero-track: #34433c;
+    --hero-accent: #e3654c;
+    --shadow-card: 0 1px 0 var(--line), 0 24px 48px -24px rgb(0 0 0 / 0.6);
+    color-scheme: dark;
+  }
+}
