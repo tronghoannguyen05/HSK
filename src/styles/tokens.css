@@ -1,24 +1,36 @@
-/* Token thiết kế. Mọi màu, font, bo góc lấy từ đây. Bản mẫu: nền ngọc nhạt, mực, đỏ son. */
+/*
+ * Token thiết kế. Mọi màu, font, bo góc lấy từ đây.
+ * Bảng màu theo mệnh Thủy của người dùng (Ất Dậu 2005, Tuyền Trung Thủy):
+ * xanh dương, xanh đen (bản mệnh) + trắng, bạc (Kim sinh Thủy).
+ * Không dùng vàng đất / nâu làm màu chính (Thổ khắc Thủy). Xem docs/DESIGN.md.
+ */
 :root {
-  --bg: #ecefe8;
-  --bg-rail: #e4e9e2;
-  --surface: #f8f9f5;
-  --surface-sunk: #ecefe8;
-  --ink: #17201c;
-  --ink-inverse: #f1f3ee;
-  --muted: #55605a;
-  --line: #cbd3cb;
-  --track: #d5ddd4;
-  --jade: #2c6656;
-  --jade-strong: #1f4c40;
-  --jade-soft: #d6e5de;
-  --seal: #b7341f;
-  --seal-soft: #f3dcd5;
-  --hero: #17201c;
-  --hero-fg: #f1f3ee;
-  --hero-muted: #a9b8af;
-  --hero-track: #33413b;
-  --hero-accent: #e0644b;
+  --bg: #f5f8fc;
+  --bg-rail: #eaf1fa;
+  --surface: #ffffff;
+  --surface-sunk: #f0f5fb;
+  --silver: #e3eefc;
+  --ink: #10284a;
+  --ink-inverse: #ffffff;
+  --muted: #3d5677;
+  --line: #c9d8ec;
+  --track: #dce6f3;
+
+  --primary: #2f80ed;
+  --primary-edge: #1b5fbf;
+  --primary-soft: #e3eefc;
+
+  --correct: #2fa866;
+  --correct-soft: #dff5e8;
+  --wrong: #e0503a;
+  --wrong-soft: #fbe3de;
+  --seal: #d2452e;
+
+  --hero: #10284a;
+  --hero-fg: #ffffff;
+  --hero-muted: #a9bcd6;
+  --hero-track: #23406b;
+  --hero-accent: #5fb0ff;
 
   --font-ui: 'Be Vietnam Pro', 'Noto Sans', system-ui, sans-serif;
   --font-display: 'Vina Sans', 'Be Vietnam Pro', system-ui, sans-serif;
@@ -28,32 +40,37 @@
   --r-md: 16px;
   --r-lg: 22px;
   --r-xl: 28px;
-  --shadow-card: 0 1px 0 var(--line), 0 24px 48px -24px rgb(23 32 28 / 0.35);
+  --shadow-card: 0 1px 0 var(--line), 0 24px 48px -24px rgb(16 40 74 / 0.3);
   --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
   color-scheme: light;
 }
 
+/* Chế độ tối: nền xanh đen sâu (Thủy), xanh Thủy sáng làm điểm nhấn. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #121815;
-    --bg-rail: #0e1311;
-    --surface: #1b231f;
-    --surface-sunk: #151c18;
-    --ink: #e8ece6;
-    --ink-inverse: #121815;
-    --muted: #9aa69f;
-    --line: #2c3631;
-    --track: #2a3430;
-    --jade: #5fae97;
-    --jade-strong: #7cc4ad;
-    --jade-soft: #1f3a32;
-    --seal: #e3654c;
-    --seal-soft: #3b211b;
-    --hero: #1f2a25;
-    --hero-fg: #e8ece6;
-    --hero-muted: #8fa097;
-    --hero-track: #34433c;
-    --hero-accent: #e3654c;
+    --bg: #0b1626;
+    --bg-rail: #08111e;
+    --surface: #12223a;
+    --surface-sunk: #0e1b2f;
+    --silver: #1a2f4f;
+    --ink: #e6eef9;
+    --ink-inverse: #0b1626;
+    --muted: #9fb3cf;
+    --line: #23395a;
+    --track: #1e3352;
+    --primary: #4c9bff;
+    --primary-edge: #2a6fd1;
+    --primary-soft: #16345c;
+    --correct: #48c47f;
+    --correct-soft: #123a27;
+    --wrong: #ff6b55;
+    --wrong-soft: #3d1c18;
+    --seal: #ff6b55;
+    --hero: #16304f;
+    --hero-fg: #e6eef9;
+    --hero-muted: #9fb3cf;
+    --hero-track: #23406b;
+    --hero-accent: #5fb0ff;
     --shadow-card: 0 1px 0 var(--line), 0 24px 48px -24px rgb(0 0 0 / 0.6);
     color-scheme: dark;
   }

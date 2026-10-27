@@ -160,7 +160,7 @@ export default function Teacher() {
           </label>
           <input id="ask" type="text" placeholder="Hỏi bất cứ điều gì, ví dụ: khi nào dùng 是, khi nào dùng 在?" />
           <button type="button" className="icon-btn" aria-label="Nói bằng giọng" style={{ width: 54, height: 54 }}>
-            <MicIcon size={22} style={{ color: 'var(--jade)' }} />
+            <MicIcon size={22} style={{ color: 'var(--primary)' }} />
           </button>
           <button type="submit" className="btn btn-primary" aria-label="Gửi" style={{ width: 54, padding: 0 }}>
             <ArrowIcon size={20} />

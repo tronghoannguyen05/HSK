@@ -23,4 +23,4 @@ App web cá nhân giúp Hanz (sinh viên Việt Nam, mới bắt đầu học ti
 - Không chép nguyên văn bài khoá, hội thoại, lời giải thích hay audio của giáo trình vào repo (xem `docs/CONTENT.md`).
 
 ## Trạng thái hiện tại
-`src/styles/tokens.css` vẫn là bảng màu cũ (ngọc/đỏ son); cần thay bằng bảng màu mệnh Thủy trong `docs/DESIGN.md`. Bản khung: 4 màn hình (Trang chủ, Thẻ từ vựng, Luyện viết, Giảng viên) chạy với dữ liệu mẫu. Nghe, Nói, Đọc mới là trang giữ chỗ. Chưa có lưu tiến độ, chưa có đồng bộ, giảng viên chưa gọi AI thật. Việc tiếp theo nằm trong mục "Việc cần làm" của `docs/PLAN.md`.
+`src/styles/tokens.css` đã theo bảng màu mệnh Thủy (sáng + tối); giữ nguyên tinh thần này khi làm lại giao diện. Bản khung: 4 màn hình (Trang chủ, Thẻ từ vựng, Luyện viết, Giảng viên) chạy với dữ liệu mẫu. Nghe, Nói, Đọc mới là trang giữ chỗ. Chưa có lưu tiến độ, chưa có đồng bộ, giảng viên chưa gọi AI thật. Việc tiếp theo nằm trong mục "Việc cần làm" của `docs/PLAN.md`.

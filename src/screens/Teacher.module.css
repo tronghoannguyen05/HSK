@@ -57,7 +57,7 @@
   color: var(--ink);
 }
 .done .dot {
-  background: var(--jade);
+  background: var(--primary);
   color: var(--surface);
 }
 .now {
@@ -152,10 +152,10 @@
   background: var(--surface-sunk);
 }
 .exGood {
-  background: var(--jade-soft);
+  background: var(--primary-soft);
 }
 .exPy {
-  color: var(--jade);
+  color: var(--primary);
 }
 .options {
   display: flex;
@@ -177,12 +177,12 @@
   transform: scale(0.98);
 }
 .right {
-  border-color: var(--jade);
-  background: var(--jade-soft);
+  border-color: var(--primary);
+  background: var(--primary-soft);
 }
 .wrong {
   border-color: var(--seal);
-  background: var(--seal-soft);
+  background: var(--wrong-soft);
 }
 .me {
   align-self: flex-end;
@@ -226,7 +226,7 @@
   }
 }
 .wrongMsg {
-  background: var(--seal-soft);
+  background: var(--wrong-soft);
 }
 .seal {
   position: absolute;

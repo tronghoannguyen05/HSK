@@ -36,7 +36,7 @@
 .fill {
   height: 100%;
   border-radius: 5px;
-  background: var(--jade);
+  background: var(--primary);
 }
 
 .stage {
@@ -66,7 +66,7 @@
   border-radius: var(--r-xl);
 }
 .cardBtn:focus-visible {
-  outline: 3px solid var(--jade);
+  outline: 3px solid var(--primary);
   outline-offset: 6px;
 }
 .inner {
@@ -128,7 +128,7 @@
 .py {
   font-size: 30px;
   font-weight: 500;
-  color: var(--jade);
+  color: var(--primary);
 }
 .meaning {
   display: flex;
@@ -156,7 +156,7 @@
   font-size: 24px;
 }
 .exPy {
-  color: var(--jade);
+  color: var(--primary);
 }
 .exVi {
   color: var(--muted);
@@ -210,11 +210,11 @@
   background: var(--surface);
 }
 .good {
-  background: var(--jade);
+  background: var(--primary);
   color: var(--surface);
 }
 .easy {
-  background: var(--jade-strong);
+  background: var(--primary-edge);
   color: var(--surface);
 }
 

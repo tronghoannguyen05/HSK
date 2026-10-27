@@ -113,7 +113,7 @@ export default function Flashcards() {
 
       <footer className={s.footer}>
         <button type="button" className="icon-btn" style={{ width: 64, height: 64 }} onClick={() => speakZh(card.hz)} aria-label="Nghe phát âm">
-          <SpeakerIcon size={26} style={{ color: 'var(--jade)' }} />
+          <SpeakerIcon size={26} style={{ color: 'var(--primary)' }} />
         </button>
         {flipped ? (
           <div className={s.ratings}>

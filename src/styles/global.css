@@ -38,7 +38,7 @@ button {
 }
 
 :focus-visible {
-  outline: 3px solid var(--jade);
+  outline: 3px solid var(--primary);
   outline-offset: 3px;
 }
 
@@ -80,7 +80,7 @@ button {
   transform: scale(0.97);
 }
 .btn-primary {
-  background: var(--jade);
+  background: var(--primary);
   color: var(--surface);
 }
 .btn-dark {
