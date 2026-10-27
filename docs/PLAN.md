@@ -33,7 +33,7 @@ Lộ trình khá gắt. Trang chủ cần cho biết đang nhanh hay chậm so v
 3. **Nghe**: app đọc từ/câu, chọn chữ hoặc nghĩa, gõ pinyin; nghe phân biệt thanh điệu; chỉnh tốc độ đọc.
 4. **Nói**: nhận giọng bằng Web Speech API (`webkitSpeechRecognition`, `zh-CN`), so khớp với chữ đúng. Safari trên iPad hỗ trợ nhưng không ổn định bằng Chrome, cần thử trên máy thật. Không chấm được thanh điệu chi tiết; nói rõ điều này trong giao diện.
 5. **Đọc**: đoạn ngắn theo bài, chỉ dùng từ đã học; chạm vào chữ để xem pinyin và nghĩa. Nội dung do giảng viên AI tạo.
-6. **Ngữ pháp + giảng viên ảo**: mỗi điểm ngữ pháp đi qua Giới thiệu → Cấu trúc → Ví dụ → Luyện tập → Tự đặt câu; giảng viên chấm và sửa câu người học tự đặt, trả lời câu hỏi tự do.
+6. **Vina: giảng viên + bạn trò chuyện** (chi tiết trong `docs/VINA.md`): chế độ Học bài dạy ngữ pháp theo Giới thiệu → Cấu trúc → Ví dụ → Luyện tập → Tự đặt câu; chế độ Trò chuyện luyện nói tiếng Trung bằng giọng, chỉ dùng từ đã học, sửa lỗi sau mỗi lượt; có hồ sơ ghi nhớ (trình độ, lỗi hay gặp, sở thích) và tính cách tuỳ chỉnh.
 7. **Thi thử**: đề theo dạng HSK 3.0 cho từng cấp, đặc biệt dồn vào tháng 6/2027.
 8. **Trang chủ**: đếm ngược đến ngày thi, buổi học hôm nay, lộ trình bài, tiến độ từng kỹ năng, chuỗi ngày học.
 
@@ -50,6 +50,6 @@ Lộ trình khá gắt. Trang chủ cần cho biết đang nhanh hay chậm so v
 4. Phần pinyin và thanh điệu.
 5. Hoàn thiện Viết với `hanzi-writer` quiz mode cho từ nhiều chữ.
 6. Nghe, Nói, Đọc.
-7. Giảng viên AI qua serverless.
+7. Vina AI qua serverless: chế độ Học bài, rồi chế độ Trò chuyện bằng giọng, rồi hồ sơ ghi nhớ.
 8. Đồng bộ nhiều máy.
 9. HSK 2 → 4, thi thử.

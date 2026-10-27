@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Vina, rồng Lý đội nón lá">
+  <!-- Bản phác linh vật Vina, biểu cảm "chào". Xem docs/VINA.md. -->
+  <defs>
+    <radialGradient id="vina-pearl" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#DCEBFF"/>
+      <stop offset="1" stop-color="#9CC4F5"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="200" cy="300" rx="150" ry="14" fill="#10284A" opacity="0.08"/>
+  <g id="tail-flame">
+    <path d="M32 228 C 16 206, 34 196, 28 176 C 42 190, 52 186, 50 168 C 66 190, 64 216, 52 228 Z" fill="#E6F1FF" stroke="#10284A" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M38 222 C 32 210, 40 204, 40 194 C 48 204, 54 210, 48 222 Z" fill="#9CC6F7"/>
+  </g>
+  <path d="M132 214 L150 172 L156 206 Z" fill="#E6F1FF" stroke="#10284A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M112 206 L118 158 L132 200 Z" fill="#E6F1FF" stroke="#10284A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M96 214 L86 174 L110 204 Z" fill="#E6F1FF" stroke="#10284A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M100 210 C 80 240, 70 270, 48 250 C 38 241, 36 232, 40 222" fill="none" stroke="#10284A" stroke-width="40" stroke-linecap="round"/>
+  <path d="M240 185 C 220 260, 160 280, 140 230 C 128 200, 108 196, 96 214" fill="none" stroke="#10284A" stroke-width="58" stroke-linecap="round"/>
+  <ellipse cx="226" cy="266" rx="20" ry="20" fill="#10284A"/>
+  <ellipse cx="152" cy="266" rx="20" ry="20" fill="#10284A"/>
+  <ellipse cx="226" cy="264" rx="14" ry="15" fill="#3B8DEB"/>
+  <ellipse cx="152" cy="264" rx="14" ry="15" fill="#3B8DEB"/>
+  <g fill="#E6F1FF" stroke="#10284A" stroke-width="3">
+    <circle cx="216" cy="279" r="6"/><circle cx="227" cy="282" r="6"/><circle cx="238" cy="279" r="6"/>
+    <circle cx="142" cy="279" r="6"/><circle cx="153" cy="282" r="6"/><circle cx="164" cy="279" r="6"/>
+  </g>
+  <path d="M100 210 C 80 240, 70 270, 48 250 C 38 241, 36 232, 40 222" fill="none" stroke="#3B8DEB" stroke-width="28" stroke-linecap="round"/>
+  <path d="M240 185 C 220 260, 160 280, 140 230 C 128 200, 108 196, 96 214" fill="none" stroke="#3B8DEB" stroke-width="46" stroke-linecap="round"/>
+  <path d="M240 185 C 220 260, 160 280, 140 230 C 128 200, 108 196, 96 214" fill="none" stroke="#D7E8FF" stroke-width="16" stroke-linecap="round" transform="translate(2 11)"/>
+  <path d="M240 185 C 220 260, 160 280, 140 230 C 128 200, 108 196, 96 214" fill="none" stroke="#A9CBF5" stroke-width="16" stroke-dasharray="2.5 11" transform="translate(2 11)"/>
+  <path d="M100 210 C 80 240, 70 270, 48 250" fill="none" stroke="#D7E8FF" stroke-width="9" stroke-linecap="round" transform="translate(1 6)"/>
+  <path d="M246 120 C 216 96, 198 122, 176 104 C 188 130, 168 142, 148 134 C 170 162, 202 162, 230 150 Z" fill="#E6F1FF" stroke="#10284A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M232 132 C 214 124, 204 136, 190 130 C 200 146, 214 148, 230 144 Z" fill="#9CC6F7"/>
+  <ellipse cx="285" cy="158" rx="66" ry="60" fill="#10284A"/>
+  <ellipse cx="337" cy="178" rx="42" ry="33" fill="#10284A"/>
+  <ellipse cx="285" cy="158" rx="60" ry="54" fill="#3B8DEB"/>
+  <ellipse cx="337" cy="178" rx="36" ry="27" fill="#D7E8FF"/>
+  <ellipse cx="268" cy="122" rx="22" ry="10" fill="#7DB5F5" opacity="0.7" transform="rotate(-18 268 122)"/>
+  <ellipse cx="352" cy="168" rx="4" ry="5" fill="#10284A"/>
+  <ellipse cx="366" cy="173" rx="4" ry="5" fill="#10284A"/>
+  <path d="M364 190 C 392 196, 394 222, 374 228" fill="none" stroke="#10284A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M352 200 C 372 216, 364 238, 344 240" fill="none" stroke="#10284A" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="258" cy="178" rx="12" ry="7" fill="#FF8FA6" opacity="0.75"/>
+  <ellipse cx="312" cy="190" rx="9" ry="5.5" fill="#FF8FA6" opacity="0.6"/>
+  <g id="eyes">
+    <circle cx="266" cy="150" r="17" fill="#FFFFFF" stroke="#10284A" stroke-width="4"/>
+    <circle cx="304" cy="146" r="17" fill="#FFFFFF" stroke="#10284A" stroke-width="4"/>
+    <circle cx="269" cy="151" r="10" fill="#10284A"/>
+    <circle cx="307" cy="147" r="10" fill="#10284A"/>
+    <circle cx="273" cy="147" r="3.5" fill="#FFFFFF"/>
+    <circle cx="311" cy="143" r="3.5" fill="#FFFFFF"/>
+  </g>
+  <path id="mouth" d="M318 196 Q 332 208 348 198" fill="none" stroke="#10284A" stroke-width="4.5" stroke-linecap="round"/>
+  <g id="non-la" transform="rotate(-8 290 100)">
+    <path d="M206 108 Q 290 126 374 106 L 294 30 Z" fill="#F3E7C4" stroke="#10284A" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M294 30 L 238 112 M294 30 L 266 117 M294 30 L 296 119 M294 30 L 326 116 M294 30 L 352 111" stroke="#CDB97F" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M206 108 Q 290 126 374 106" fill="none" stroke="#10284A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M226 74 Q 294 88 362 72" fill="none" stroke="#2F80ED" stroke-width="5" opacity="0.55"/>
+  </g>
+  <path d="M232 118 Q 226 196 296 220" fill="none" stroke="#C8402A" stroke-width="4" stroke-linecap="round"/>
+  <g id="pearl">
+    <circle cx="272" cy="284" r="24" fill="#BFD9FA" opacity="0.35"/>
+    <circle cx="272" cy="284" r="15" fill="url(#vina-pearl)" stroke="#10284A" stroke-width="4"/>
+  </g>
+</svg>
